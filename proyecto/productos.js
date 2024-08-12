@@ -1,0 +1,6 @@
+const productos = [
+    { id: 1, nombre: "Agua micelar sephora", precio: 10200, imagen: "https://www.sephora.com.mx/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw2f80318a/images/hi-res/boletos/Jazmin/SEPHORA/sephora3378872134961A.jpg" },
+    { id: 2, nombre: "Crema hidratante garnier", precio: 7500, imagen: "https://elbloquear.vtexassets.com/arquivos/ids/166076/7509552844047_2.jpg?v=638336875108700000" },
+    { id: 4, nombre: "Ácido hialurónico Loreal Paris", precio: 9400, imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL780wWIBpSS55HBpi_PFoJiU3uQLUkAH--Q&s" },
+    { id: 5, nombre: "Crema anti-age La Roche", precio: 8500, imagen: "https://www.laroche-posay.com.ar/-/media/project/loreal/brand-sites/lrp/america/latam/products/hyalu-b5/anti-aging-hyalu-b5-care/la-roche-posay-productpage-anti-aging-hyalu-b5-care-40ml-3337875583589-zoomed-back.jpg?cx=0&cy=0&cw=600&ch=600&hash=FBD624F6BD6F02F3C5DEBE1F12635CD5" }
+];
