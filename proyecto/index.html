@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skincareStore</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <h1 id="titulo">Bienvenidos a Skincare Shop</h1>
+    
+    <div id="container" class="container"></div>
+
+    <button id="ver-carrito">Ver Carrito</button>
+    
+    <div id="carrito-container" class="carrito-container" style="display: none;">
+        <h2>Tu Carrito</h2>
+        <div id="carrito-lista"></div>
+        <button id="finalizar-compra">Finalizar compra</button>
+        <button id="cerrar-carrito">Cerrar</button>
+        <div id="medio-pago-container" style="display: none;">
+            <h3>Selecciona un medio de pago</h3>
+            <select id="medio-pago">
+                <option value="tarjeta">Tarjeta de crédito</option>
+                <option value="tarjeta">tarjeta debito</option>
+                <option value="tarjeta">efectivo</option>
+               
+            </select>
+            <button id="pagar">Pagar</button>
+        </div>
+    </div>
+    
+    <script src="funciones.js"></script>
+    <script src="proyecto.js"></script>
+</body>
+</html>
